@@ -1,0 +1,199 @@
+body {
+    font-family: apercu,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+ }
+ main{
+	overflow: auto;
+    padding: 20px;
+    background-color: #DEE2E6;
+    
+}
+ header{
+	margin: auto;
+	margin-bottom: 2%;
+    display: inline;
+    text-align: center;
+} 
+.title{
+    font-size: 20px;
+    padding: 20px;
+    background-color:rgb(252, 233, 152);
+    text-align: center;
+    color: rgb(253, 253, 253);
+}
+ nav li{
+	display: inline;
+	padding: 20px;
+    list-style-type: none;
+}
+nav{
+	background-color: rgb(255, 149, 82);
+	padding: 5px;
+	position: sticky;
+    top: 0; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+nav a {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+ }
+ a:hover{
+     background-color: white;
+     color: rgb(255, 149, 82);
+     border-radius: 2px;
+     padding: 20px;
+ }
+
+ article{
+	
+	width: 100%;
+	box-shadow: 0 2px 28px 0 rgba(100, 100, 100, 0.4);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 3%;
+    background-color:white;
+}
+.content{
+    width: 65%;
+    margin: auto;
+    float: left;
+}
+aside{
+    width: 27%; 
+    float: right;
+    margin: auto;
+}
+.identitas{
+	box-shadow: 0 2px 28px 0 rgba(100, 100, 100, 0.4);
+    border-radius: 10px;
+    margin-bottom: 7%;
+    background-color: rgb(255, 149, 82) ;
+    color: white;
+    padding: 20px;
+}
+.rekap h3{
+    text-align: center;
+}
+.rekap{
+    margin: auto;
+    box-shadow: 0 2px 28px 0 rgba(100, 100, 100, 0.4);
+    border-radius: 10px;
+    margin-bottom: 2%;
+    background-color: rgb(255, 255, 255) ;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.rekapHarga{
+    width: 80%;
+    margin: auto;
+}
+.rekapHarga button{
+    padding: 3%;
+    background-color:  rgb(255, 149, 82)  ;
+    color: rgb(235, 235, 235);
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 2%;
+    border: none;
+}
+.rekapHarga button:hover{
+    background-color: rgb(245, 122, 46) ;
+    color: white;
+    font:bold;
+}
+.logo{
+	width: 60%; 
+    margin: auto;
+    background-color: white;
+    border-radius: 20%;	
+}
+.logosm{
+    float: left;
+	width: 10%;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3.5%;
+}
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.socialMedia h2{
+    float: left;
+    width: 50%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.socialMedia h2 a{
+    text-decoration: none;
+    color: black;
+}
+.socialMedia h2 a:hover{
+    color:rgb(255, 149, 82) ;
+   margin-left: -20px;
+}
+.contentLogo{
+	width: 60%;
+	text-align: center;
+	margin: auto;
+}
+.imageArticle{
+	width: 100%;
+	max-height: 500px;
+	object-fit: cover;
+    object-position: center;
+    border-radius:5px ;
+    margin-bottom: 2%;
+}
+footer{
+	height: 50px;
+	background-color:rgb(255, 149, 82); 
+	margin: auto;
+	padding: auto;
+	text-align: center;
+    padding: 5px;
+    color: white;
+}
+.footer p{
+	opacity: 0.6;
+}
+footer p:hover{
+    color: rgb(187, 236, 255);
+}
+.information{
+    background-color: #DEE2E6;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.information h3,.information p{
+    width: 90%;
+    margin: 2% 2% ;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#number{
+    border: none;
+    border-bottom: 1px solid rgb(41, 41, 41);
+    width: 80%;
+    margin-left: 5%;
+}
+#wisata{
+    border: none;
+    border-bottom: 1px solid rgb(41, 41, 41);
+    width: 80%;
+    margin-left: 5%;
+}
+#wisata:focus,#number:focus, button:focus{
+    outline-color: white;
+}
+table{
+    width: 100%;
+}
